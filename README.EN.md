@@ -2,6 +2,8 @@
 this ROS workspace is have a program called object_detect and a simulation package intend to detect common object from ROS video stream using yolov3
 
 # usage
+0. download **yolov3.weights**  to **src/object_detect/src/yolov3/**
+[https://www.kaggle.com/datasets/shivam316/yolov3-weights]()
 1. `git clone https://github.com/Cheny5863/catkin_ws_yolo.git`
 2. `cd catkin_ws_yolo/`
 3. `catkin_make`
