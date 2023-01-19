@@ -1,8 +1,7 @@
 # catkin_ws_yolo
 这个ROS工作区有一个名为object_detect的程序和一个模拟包，旨在使用yolov3检测ROS视频流中的常见对象
 # 用法
-0. 下载**yolov3.weights** 到**src/object_detect/src/yolov3/**
-[https://www.kaggle.com/datasets/shivam316/yolov3-weights]()
+0. 下载[yolov3.weights](https://www.kaggle.com/datasets/shivam316/yolov3-weights) 到**src/object_detect/src/yolov3/**
 1. `git clone https://github.com/Cheny5863/catkin_ws_yolo.git`
 2. `cd catkin_ws_yolo/`
 3. `catkin_make`
