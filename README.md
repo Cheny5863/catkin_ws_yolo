@@ -8,6 +8,7 @@
 `source ./devel/setup.bash`
 `roslauch six_wheel_robot openGazebo.launch`
 5. 运行目标检测程序
+`source ./devel/setup.bash`
 `rosrun object_detect object_detect_node `
 
 然后你就能看见，如下图所示的效果
