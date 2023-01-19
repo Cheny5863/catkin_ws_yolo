@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+
+<robot name="robot_body" 
+    xmlns:xacro="http://ros.org/wiki/xacro">
+
+    <xacro:include filename="./head.xacro"/>
+    <xacro:include filename="./robot_body.xacro"/>
+    <!-- camera group(there is only one type camera exist) -->
+        <!-- RGBD camera -->
+        <xacro:include filename="./gazebo/kinect.xacro"/>
+        <!-- Stereo camera -->
+        <!-- <xacro:include filename="./gazebo/stereo.xacro"/> -->
+    <!--camera group end-->
+    <xacro:include filename="./camera.xacro"/>
+    <xacro:include filename="./gazebo/laser.xacro"/>
+    <xacro:include filename="./laser.xacro"/>
+    <xacro:include filename="./gazebo/imu.xacro"/>
+    <xacro:include filename="./imu.xacro"/>
+    <xacro:include filename="./gazebo/move.xacro"/>
+    
+</robot>
